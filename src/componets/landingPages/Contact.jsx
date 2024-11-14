@@ -37,6 +37,13 @@ const Contact = () => {
                 placeholder="Email"
               />
             </div>
+            <div className="flex flex-col gap-1">
+              <input
+                type="tel"
+                className="w-full bg-transparent placeholder:text-slate-100 outline-none border rounded-sm font-light border-white/40 px-2 py-3"
+                placeholder="Phone Number"
+              />
+            </div>
             <div className="">
               <textarea
                 className="w-full bg-transparent placeholder:text-slate-100 outline-none border rounded-sm font-light border-white/40 px-2 py-3"
