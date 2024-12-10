@@ -61,7 +61,7 @@ const Home = () => {
                 Empowering Businesses with Cutting-Edge Digital Solutions
               </h2>
               <p className="desc">
-                At VITRONIX INNOVATIONS, we’re passionate about technology and
+                At VIRONIX INNOVATIONS, we’re passionate about technology and
                 creativity, delivering digital solutions that help businesses
                 thrive in a rapidly changing landscape. Our expert team
                 specializes in web solutions, mobile apps, AI-driven
@@ -107,7 +107,7 @@ const Home = () => {
             Reliable IT Support for Your Business
           </h1>
           <p className="desc max-w-[50rem] mx-auto">
-            At VITRONIX INNOVATIONS, we are fueled by a passion for technology
+            At VIRONIX INNOVATIONS, we are fueled by a passion for technology
             and creativity. What started as a vision to transform businesses
             through digital innovation has grown into a trusted partnership for
             companies seeking to embrace the future. Our dedicated team of

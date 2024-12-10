@@ -20,7 +20,7 @@ const ContactUs = () => {
           <div className="gradient-rounded-text-box">Contact Us</div>
           <h2 className="heading-2 mt-5">Get in Touch</h2>
           <p className="desc">
-            Connect with VITRONIX INNOVATIONS to discuss how our cutting-edge
+            Connect with VIRONIX INNOVATIONS to discuss how our cutting-edge
             solutions can transform your business. Schedule a consultation
             today.
           </p>

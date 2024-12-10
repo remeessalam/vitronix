@@ -11,7 +11,7 @@ const Contact = () => {
           <div data-aos="fade-right" className="flex flex-col gap-4">
             <h2 className="heading-2">Get In Touch With Us!</h2>
             <p className="desc">
-              Let <span className="font-semibold">VITRONIX INNOVATIONS</span> be
+              Let <span className="font-semibold">VIRONIX INNOVATIONS</span> be
               the catalyst for your digital transformation. Together, we can
               build solutions that are as dynamic as your vision, helping your
               business reach new heights.

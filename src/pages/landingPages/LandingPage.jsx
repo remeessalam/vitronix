@@ -87,8 +87,8 @@ export const LandingPage = ({ page }) => {
               </h2>
               <p className="desc">
                 {isWebDevelopment
-                  ? "At VITRONIX INNOVATIONS , we specialize in delivering high-performance websites and digital platforms that help businesses thrive online. From custom web development to responsive design, we build solutions that are both user-friendly and visually stunning. Let's turn your vision into a reality."
-                  : "At VITRONIX INNOVATIONS , we specialize in creating intuitive, high-performing mobile applications tailored to meet the unique needs of businesses across industries. Our expert team combines technical expertise with creative design to develop apps that drive engagement and growth."}
+                  ? "At VIRONIX INNOVATIONS , we specialize in delivering high-performance websites and digital platforms that help businesses thrive online. From custom web development to responsive design, we build solutions that are both user-friendly and visually stunning. Let's turn your vision into a reality."
+                  : "At VIRONIX INNOVATIONS , we specialize in creating intuitive, high-performing mobile applications tailored to meet the unique needs of businesses across industries. Our expert team combines technical expertise with creative design to develop apps that drive engagement and growth."}
               </p>
             </div>
             <div className="flex justify-center lg:justify-start gap-5 mt-4">
@@ -174,7 +174,7 @@ export const LandingPage = ({ page }) => {
             Innovation & Excellence
           </h1>
           <p data-aos="fade-up" className="desc max-w-[50rem] mx-auto">
-            At VITRONIX INNOVATIONS, we recognize that a website is more than
+            At VIRONIX INNOVATIONS, we recognize that a website is more than
             just a digital presence—it’s the face of your brand, a crucial
             business asset, and often the first interaction for potential
             customers. In today’s competitive market, having a strategically

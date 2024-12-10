@@ -276,11 +276,11 @@ export const allServices = [
   {
     id: 1,
     title: "Web Development",
-    desc: "At VITRONIX INNOVATIONS, we specialize in delivering high-performance websites and digital platforms that help businesses thrive online. From custom web development to responsive design, we build solutions that are both user-friendly and visually stunning. Let's turn your vision into a reality.",
+    desc: "At VIRONIX INNOVATIONS, we specialize in delivering high-performance websites and digital platforms that help businesses thrive online. From custom web development to responsive design, we build solutions that are both user-friendly and visually stunning. Let's turn your vision into a reality.",
     detailContent:
-      "In the digital age, your website serves as the cornerstone of your business's online presence and often acts as the first point of interaction between you and your potential customers. As the face of your brand, your website plays a pivotal role in shaping perceptions, building trust, and driving conversions. At VITRONIX INNOVATIONS, we understand the significance of having a well-designed website that not only showcases your products or services but also aligns with your business goals and engages your audience effectively. \n\n" +
+      "In the digital age, your website serves as the cornerstone of your business's online presence and often acts as the first point of interaction between you and your potential customers. As the face of your brand, your website plays a pivotal role in shaping perceptions, building trust, and driving conversions. At VIRONIX INNOVATIONS, we understand the significance of having a well-designed website that not only showcases your products or services but also aligns with your business goals and engages your audience effectively. \n\n" +
       "Our expertise lies in developing websites that are responsive, scalable, and secure, ensuring exceptional performance across all devices and platforms. In a world where users access websites from a variety of devices—ranging from desktops and laptops to tablets and smartphones—having a responsive design is crucial. This adaptability enhances user experience by providing a consistent interface regardless of the device being used, which is essential in retaining visitors and encouraging them to explore further.\n\n" +
-      "At VITRONIX INNOVATIONS, we tailor each web development project to meet the specific goals and needs of our clients. We recognize that every business is unique, and therefore, a one-size-fits-all approach simply won’t suffice. Whether you require a corporate website that effectively communicates your brand values or a dynamic web application that offers interactive features, our team collaborates closely with you to understand your vision. By leveraging our technical expertise and industry insights, we craft customized solutions that resonate with your target audience.",
+      "At VIRONIX INNOVATIONS, we tailor each web development project to meet the specific goals and needs of our clients. We recognize that every business is unique, and therefore, a one-size-fits-all approach simply won’t suffice. Whether you require a corporate website that effectively communicates your brand values or a dynamic web application that offers interactive features, our team collaborates closely with you to understand your vision. By leveraging our technical expertise and industry insights, we craft customized solutions that resonate with your target audience.",
     serviceHighlights: [
       {
         title: "Custom Web Development",
@@ -321,11 +321,11 @@ export const allServices = [
   {
     id: 2,
     title: "Mobile App Development",
-    desc: "At VITRONIX INNOVATIONS, we specialize in creating intuitive, high-performing mobile applications tailored to meet the unique needs of businesses across industries. Our expert team combines technical expertise with creative design to develop apps that drive engagement and growth.",
+    desc: "At VIRONIX INNOVATIONS, we specialize in creating intuitive, high-performing mobile applications tailored to meet the unique needs of businesses across industries. Our expert team combines technical expertise with creative design to develop apps that drive engagement and growth.",
     detailContent:
-      "In today’s fast-paced digital landscape, mobile applications have become integral to how businesses interact with their customers and streamline their operations. Mobile app development is more than just creating an application; it is about crafting an engaging experience that enhances user interaction and drives business success. At VITRONIX INNOVATIONS, we specialize in developing high-performance mobile applications that cater to both Android and iOS platforms, ensuring that your business remains accessible and relevant in a mobile-driven world. \n\n" +
+      "In today’s fast-paced digital landscape, mobile applications have become integral to how businesses interact with their customers and streamline their operations. Mobile app development is more than just creating an application; it is about crafting an engaging experience that enhances user interaction and drives business success. At VIRONIX INNOVATIONS, we specialize in developing high-performance mobile applications that cater to both Android and iOS platforms, ensuring that your business remains accessible and relevant in a mobile-driven world. \n\n" +
       "The importance of mobile applications cannot be overstated. With a significant portion of internet traffic now coming from mobile devices, businesses must adapt to this shift by providing their services through easily accessible mobile applications. A well-designed app can significantly enhance user engagement, offering a seamless experience that keeps customers returning. This shift towards mobile solutions is not just a trend; it represents a fundamental change in consumer behavior, with users expecting businesses to meet them where they are—on their smartphones and tablets. \n\n" +
-      "At VITRONIX INNOVATIONS, our mobile app development process begins with understanding your specific needs and objectives. We believe that every business is unique, and a cookie-cutter approach will not yield the desired results. Our team conducts thorough market research and user analysis to comprehend your target audience's preferences and behaviors. This deep understanding allows us to design applications that resonate with users, making their interactions with your brand more meaningful and effective.",
+      "At VIRONIX INNOVATIONS, our mobile app development process begins with understanding your specific needs and objectives. We believe that every business is unique, and a cookie-cutter approach will not yield the desired results. Our team conducts thorough market research and user analysis to comprehend your target audience's preferences and behaviors. This deep understanding allows us to design applications that resonate with users, making their interactions with your brand more meaningful and effective.",
     serviceHighlights: [
       {
         title: "Custom Mobile Apps",
@@ -370,9 +370,9 @@ export const allServices = [
   {
     id: 3,
     title: "Machine Learning",
-    desc: "At VITRONIX INNOVATIONS, we specialize in designing and deploying advanced machine learning models that turn data into actionable insights. From predictive analytics to automation, we empower businesses to make smarter, data-driven decisions and streamline processes with the help of artificial intelligence.",
+    desc: "At VIRONIX INNOVATIONS, we specialize in designing and deploying advanced machine learning models that turn data into actionable insights. From predictive analytics to automation, we empower businesses to make smarter, data-driven decisions and streamline processes with the help of artificial intelligence.",
     detailContent:
-      "In today’s data-driven world, machine learning has become a powerful tool for businesses to gain insights, automate processes, and make informed decisions. At VITRONIX INNOVATIONS, we harness the full potential of artificial intelligence to develop machine learning models tailored to solve your unique business challenges. Our team of AI experts works closely with you to create models that not only drive performance but also empower your business to stay ahead in an ever-evolving landscape.\n\n" +
+      "In today’s data-driven world, machine learning has become a powerful tool for businesses to gain insights, automate processes, and make informed decisions. At VIRONIX INNOVATIONS, we harness the full potential of artificial intelligence to develop machine learning models tailored to solve your unique business challenges. Our team of AI experts works closely with you to create models that not only drive performance but also empower your business to stay ahead in an ever-evolving landscape.\n\n" +
       "We specialize in deploying machine learning solutions across various domains, including predictive analytics, natural language processing (NLP), computer vision, and AI-powered automation. Whether you're looking to predict customer behavior, process large datasets, or automate tedious workflows, our solutions are designed to unlock the true potential of your data and help you make smarter decisions that drive growth and innovation.\n\n" +
       "Our approach begins with understanding your specific business needs, followed by a comprehensive data analysis to develop models that deliver actionable insights. By leveraging advanced algorithms and cutting-edge technologies, we ensure that your machine learning models are optimized for accuracy, scalability, and real-world application. Let us help you unlock the power of data and transform your business with intelligent AI solutions.",
     serviceHighlights: [
@@ -425,9 +425,9 @@ export const allServices = [
   {
     id: 4,
     title: "Computer Vision",
-    desc: "At VITRONIX INNOVATIONS, we specialize in cutting-edge computer vision technology that enables machines to interpret and act on visual data. Our AI-driven solutions power automation, enhance security, and provide deep insights across industries. From object detection to video analysis, we help businesses transform raw visual data into actionable insights.",
+    desc: "At VIRONIX INNOVATIONS, we specialize in cutting-edge computer vision technology that enables machines to interpret and act on visual data. Our AI-driven solutions power automation, enhance security, and provide deep insights across industries. From object detection to video analysis, we help businesses transform raw visual data into actionable insights.",
     detailContent:
-      "Computer vision is revolutionizing the way industries interact with visual data, and at VITRONIX INNOVATIONS, we are at the forefront of this transformation. Our team designs and develops advanced computer vision solutions that allow machines to interpret, analyze, and make decisions based on visual inputs. From object detection and facial recognition to augmented reality (AR) applications, we provide a wide range of services that empower businesses to enhance security, automate processes, and extract valuable insights from visual information.\n\n" +
+      "Computer vision is revolutionizing the way industries interact with visual data, and at VIRONIX INNOVATIONS, we are at the forefront of this transformation. Our team designs and develops advanced computer vision solutions that allow machines to interpret, analyze, and make decisions based on visual inputs. From object detection and facial recognition to augmented reality (AR) applications, we provide a wide range of services that empower businesses to enhance security, automate processes, and extract valuable insights from visual information.\n\n" +
       "Whether you're in manufacturing, healthcare, or security, our computer vision solutions enable you to improve operational efficiency, reduce errors, and gain real-time insights. By combining deep learning algorithms with image processing techniques, we ensure that your business can leverage visual data to stay competitive and innovative in an increasingly data-driven world.\n\n" +
       "Our computer vision services span multiple domains, ensuring that businesses across various industries can harness the power of visual intelligence to solve real-world problems.",
     serviceHighlights: [
@@ -579,9 +579,9 @@ export const allServices = [
   {
     id: 7,
     title: "Game Development",
-    desc: "At VITRONIX INNOVATIONS, we don’t just build games—we create worlds. Our team of passionate developers, artists, and storytellers brings your ideas to life with captivating gameplay, stunning visuals, and unforgettable narratives. Whether it’s an action-packed adventure or a mind-bending puzzle, our games are designed to transport players into new realms and keep them engaged.",
+    desc: "At VIRONIX INNOVATIONS, we don’t just build games—we create worlds. Our team of passionate developers, artists, and storytellers brings your ideas to life with captivating gameplay, stunning visuals, and unforgettable narratives. Whether it’s an action-packed adventure or a mind-bending puzzle, our games are designed to transport players into new realms and keep them engaged.",
     detailContent:
-      "Game development is a dynamic and fast-paced industry where creativity meets technology to create immersive and engaging experiences. At VITRONIX INNOVATIONS, we specialize in building games that not only entertain but also challenge and captivate players across all platforms. Our expert team of developers, designers, and storytellers work together to craft games with compelling narratives, stunning visuals, and innovative gameplay mechanics.\n\n" +
+      "Game development is a dynamic and fast-paced industry where creativity meets technology to create immersive and engaging experiences. At VIRONIX INNOVATIONS, we specialize in building games that not only entertain but also challenge and captivate players across all platforms. Our expert team of developers, designers, and storytellers work together to craft games with compelling narratives, stunning visuals, and innovative gameplay mechanics.\n\n" +
       "The development process begins with a deep understanding of your vision and goals for the game. We collaborate closely with you to develop a concept that resonates with your target audience and ensures the game delivers an experience that stands out. Whether it’s an action-packed game or a strategy-based puzzle, our goal is to create something that players won’t be able to put down.\n\n" +
       "Once the concept is locked, our team focuses on the design and development phases. From crafting beautiful characters and environments to building smooth gameplay mechanics, we prioritize quality and user experience. Every visual element is carefully designed, and the user interface (UI) is optimized for a seamless and intuitive experience. Whether your game will be played on a mobile device, console, or PC, we ensure it’s optimized for the platform to offer a flawless experience.",
     serviceHighlights: [
@@ -632,7 +632,7 @@ export const allServices = [
 export const whyChooseUsContent = [
   {
     title: "Tailored Solutions for Every Business",
-    desc: "At VITRONIX INNOVATIONS, we understand that every business is unique. We work closely with you to develop customized digital solutions that align with your specific needs and goals, ensuring that your vision comes to life.",
+    desc: "At VIRONIX INNOVATIONS, we understand that every business is unique. We work closely with you to develop customized digital solutions that align with your specific needs and goals, ensuring that your vision comes to life.",
   },
   {
     title: "Cutting-Edge Technology",
@@ -640,7 +640,7 @@ export const whyChooseUsContent = [
   },
   {
     title: "Security and Reliability",
-    desc: "At VITRONIX INNOVATIONS, your security is our priority. We implement robust security measures to ensure that your data remains safe, and we build reliable solutions that stand the test of time, offering peace of mind for your business.",
+    desc: "At VIRONIX INNOVATIONS, your security is our priority. We implement robust security measures to ensure that your data remains safe, and we build reliable solutions that stand the test of time, offering peace of mind for your business.",
   },
   {
     title: "Long-Term Partnerships",
@@ -656,7 +656,7 @@ export const whyChooseUsContent = [
   },
   {
     title: "End-to-End Support",
-    desc: "From initial consultations to post-launch support, we provide a full suite of services. Whether you need help with strategy, design, development, or ongoing maintenance, VITRONIX INNOVATIONS is your one-stop shop for all your digital needs.",
+    desc: "From initial consultations to post-launch support, we provide a full suite of services. Whether you need help with strategy, design, development, or ongoing maintenance, VIRONIX INNOVATIONS is your one-stop shop for all your digital needs.",
   },
   {
     title: "Client-Centered Approach",

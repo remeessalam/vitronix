@@ -37,7 +37,7 @@ const AboutUs = () => {
             Empowering Your Digital Transformation
           </h2>
           <p data-aos="fade-up" className="desc max-w-[50rem]">
-            At VITRONIX INNOVATIONS, we specialize in leveraging cutting-edge
+            At VIRONIX INNOVATIONS, we specialize in leveraging cutting-edge
             technology to deliver innovative solutions that drive business
             success. Our expert team is dedicated to creating digital
             experiences that make an impact and help businesses thrive in a
@@ -54,7 +54,7 @@ const AboutUs = () => {
                     Innovating for a Smarter Future
                   </h6>
                   <p className="desc mt-2">
-                    At VITRONIX INNOVATIONS, innovation is at the heart of
+                    At VIRONIX INNOVATIONS, innovation is at the heart of
                     everything we do. We are constantly exploring emerging
                     technologies to craft smarter, future-ready solutions that
                     go beyond solving today's problems. Our goal is to help
@@ -86,8 +86,8 @@ const AboutUs = () => {
                     Tailored to Your Needs
                   </h6>
                   <p className="desc mt-2">
-                    At VITRONIX INNOVATIONS, we understand that every business
-                    is unique. We offer tailored solutions that cater to your
+                    At VIRONIX INNOVATIONS, we understand that every business is
+                    unique. We offer tailored solutions that cater to your
                     specific needs and goals. From startups to large
                     enterprises, we collaborate with our clients to craft
                     personalized strategies and create long-term partnerships
@@ -135,12 +135,12 @@ const AboutUs = () => {
                     Purposeful Innovation
                   </h6>
                   <p className="desc mt-2">
-                    Technology with purpose can drive transformation. At
-                    VITRONIX INNOVATIONS, we use technology not just for the
-                    sake of it, but to create tangible value—whether it's
-                    streamlining operations, enhancing customer experiences, or
-                    driving sustainable growth. Our solutions are purpose-driven
-                    to ensure maximum impact.
+                    Technology with purpose can drive transformation. At VIRONIX
+                    INNOVATIONS, we use technology not just for the sake of it,
+                    but to create tangible value—whether it's streamlining
+                    operations, enhancing customer experiences, or driving
+                    sustainable growth. Our solutions are purpose-driven to
+                    ensure maximum impact.
                   </p>
                 </div>
               </div>
@@ -175,7 +175,7 @@ const AboutUs = () => {
         <UnlockEfficiency />
         <div className="wrapper mt-[5rem]">
           <h2 data-aos="fade-up" className="heading-2">
-            Why Choose VITRONIX INNOVATIONS?
+            Why Choose VIRONIX INNOVATIONS?
           </h2>
           <ul className="mt-[2rem] flex flex-col gap-3 list-disc list-outside text-start">
             {whyChooseUsContent.map((item) => (
