@@ -1,14 +1,71 @@
 import React, { lazy } from "react";
 import Banner from "../../componets/website/Banner";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaPhone } from "react-icons/fa";
 import { companyDetails } from "../../constant";
 import { IoMail } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
+import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 const MapComponent = lazy(() => import("../../componets/website/MapComponent"));
 
 const ContactUs = () => {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitting },
+  } = useForm({
+    mode: "all",
+    defaultValues: {
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
+    },
+  });
+  const navigate = useNavigate();
+
+  // handle form submit click
+  const handleFormSubmit = async (values) => {
+    // setSpinner(true);
+
+    var emailBody = "Name: " + values.name + "\n\n";
+    emailBody += "Email: " + values.email + "\n\n";
+    emailBody += "Phone: " + values.phone + "\n\n";
+    // emailBody += "Subject: " + values.subject + "\n\n";
+    emailBody += "Message:\n" + values.message;
+
+    // Construct the request payload
+    var payload = {
+      to: companyDetails.email,
+      // to: "remeesreme4u@gmail.com",
+      subject: "You have a new message from NEXTGENAI",
+      body: emailBody,
+    };
+
+    await fetch("https://smtp-api-tawny.vercel.app/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+      .then((response) => response.json())
+      .then(() => {
+        toast.success("Email sent successfully");
+        reset();
+        navigate("/thank-you");
+      })
+      .catch((error) => {
+        toast.error(error.message);
+      })
+      .finally(() => "");
+
+    // setSpinner(false));
+  };
   return (
     <>
       <Banner page="Contact Us" />
@@ -65,38 +122,92 @@ const ContactUs = () => {
           <div className="p-[1px] text-white h-full bg-gradient-to-r from-primarygradient to-primary rounded-lg">
             <div className="rounded-lg h-full bg-[#101010] p-4">
               <h3 className="text-lg">Have Any Question?</h3>
-              <form className="flex flex-col gap-4 mt-5">
+              <form
+                onSubmit={handleSubmit(handleFormSubmit)}
+                className="flex flex-col gap-4 mt-5"
+              >
                 <div className="flex flex-col gap-1">
                   <input
-                    type="text"
                     className="border-primary p-2 rounded-md border outline-none bg-transparent"
-                    placeholder="Name"
+                    type="text"
+                    placeholder="Full Name"
+                    {...register("name", {
+                      required: "Full name is required",
+                      validate: (val) => {
+                        if (val.trim() !== "") {
+                          return true;
+                        } else {
+                          return "Full name is required";
+                        }
+                      },
+                    })}
                   />
+                  <small className="error-message">
+                    {errors.name?.message}
+                  </small>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex flex-col gap-1">
                     <input
-                      type="email"
                       className="border-primary p-2 rounded-md border outline-none bg-transparent"
-                      placeholder="Email"
+                      type="email"
+                      placeholder="Email Address"
+                      {...register("email", {
+                        required: "Email is required",
+                        pattern: {
+                          value:
+                            /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                          message: "Entered email is invalid",
+                        },
+                      })}
                     />
+                    <small className="error-message">
+                      {errors.email?.message}
+                    </small>
                   </div>
                   <div className="flex flex-col gap-1">
                     <input
-                      type="tel"
                       className="border-primary p-2 rounded-md border outline-none bg-transparent"
                       placeholder="Phone Number"
+                      {...register("phone", {
+                        required: "Phone number is required",
+                        pattern: {
+                          value: /^[6-9]\d{9}$/i,
+                          message: "Entered phone number is invalid",
+                        },
+                      })}
                     />
+                    <small className="error-message">
+                      {errors.phone?.message}
+                    </small>
                   </div>
                 </div>
                 <div className="flex flex-col gap-1">
                   <textarea
-                    rows="4"
                     className="border-primary p-2 rounded-md border outline-none bg-transparent"
-                    placeholder="Message"
+                    type="text"
+                    placeholder="Enter Message"
+                    rows="4"
+                    {...register("message", {
+                      required: "Message is required",
+                      validate: (val) => {
+                        if (val.trim() !== "") {
+                          return true;
+                        } else {
+                          return "Message is required";
+                        }
+                      },
+                    })}
                   />
+                  <small className="error-message">
+                    {errors.message?.message}
+                  </small>
                 </div>
-                <button type="button" className="tertiary-btn mt-3">
+                <button
+                  disabled={isSubmitting}
+                  type="submit"
+                  className="tertiary-btn mt-3"
+                >
                   Send Message
                 </button>
               </form>

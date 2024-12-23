@@ -5,6 +5,7 @@ import { companyDetails } from "../../constant";
 import toast from "react-hot-toast";
 import { useForm } from "react-hook-form";
 import { SpinnerContext } from "../SpinnerContext";
+import { useNavigate } from "react-router-dom";
 //  "../../assets/images/line.png";
 
 const Form = () => {
@@ -24,6 +25,7 @@ const Form = () => {
       message: "",
     },
   });
+  const navigate = useNavigate();
 
   // handle form submit click
   const handleFormSubmit = async (values) => {
@@ -53,6 +55,7 @@ const Form = () => {
       .then(() => {
         toast.success("Email sent successfully");
         reset();
+        navigate("/thank-you");
       })
       .catch((error) => {
         toast.error(error.message);
@@ -94,8 +97,8 @@ const Form = () => {
                     Name
                   </label>
                   <input
-                    type="text"
                     className="border outline-none border-main placeholder-slate-100 bg-black/5 rounded-sm p-2"
+                    type="text"
                     placeholder="Full Name"
                     {...register("name", {
                       required: "Full name is required",
@@ -117,8 +120,8 @@ const Form = () => {
                     Email
                   </label>
                   <input
-                    type="email"
                     className="border outline-none border-main placeholder-slate-100 bg-black/5 rounded-sm p-2"
+                    type="email"
                     placeholder="Email Address"
                     {...register("email", {
                       required: "Email is required",
@@ -139,8 +142,8 @@ const Form = () => {
                     Phone
                   </label>
                   <input
-                    type="tel"
                     className="border outline-none border-main placeholder-slate-100 bg-black/5 rounded-sm p-2"
+                    type="tel"
                     placeholder="Phone Number"
                     {...register("phone", {
                       required: "Phone number is required",
@@ -184,8 +187,8 @@ const Form = () => {
                   Message
                 </label>
                 <textarea
-                  type="text"
                   className="border outline-none border-main placeholder-slate-100 bg-black/5 rounded-sm p-2"
+                  type="text"
                   placeholder="Enter Message"
                   rows="4"
                   {...register("message", {
