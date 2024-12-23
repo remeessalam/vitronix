@@ -146,7 +146,7 @@ export const portfolioDataWeb = [
 export const companyDetails = {
   phone: "+91-9007395995",
   whatsapp: "+91-9007395995",
-  email: "example@domainname123.com",
+  email: "vironixinnovations@gmail.com",
   address: "CLUB TOWN COMPLEX VIP ROAD , KOLKATA -700052, WEST BENGAL , INDIA ",
 };
 
