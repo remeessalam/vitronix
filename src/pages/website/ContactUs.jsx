@@ -41,7 +41,6 @@ const ContactUs = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      // to: "remeesreme4u@gmail.com",
       subject: "You have a new message from NEXTGENAI",
       body: emailBody,
     };
