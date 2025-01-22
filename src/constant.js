@@ -144,8 +144,8 @@ export const portfolioDataWeb = [
 
 // company details
 export const companyDetails = {
-  phone: "+91-9007395995",
-  whatsapp: "+91-9007395995",
+  phone: "+91-9051295091",
+  whatsapp: "+91-9051295091",
   email: "vironixinnovations@gmail.com",
   address: "CLUB TOWN COMPLEX VIP ROAD , KOLKATA -700052, WEST BENGAL , INDIA ",
 };
